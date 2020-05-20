@@ -1,0 +1,78 @@
+/**Typography*/
+
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 14pt;
+    line-height: 18pt;
+    color: #000000;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 25px;
+}
+
+h2 {
+    font: "Helvetica";
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+article {
+    font: "Helvetica";
+    font-size: 14pt;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+h1{
+    font-family: 'Teko', sans-serif;
+    font-size: 72pt;
+}
+
+/*Backgrounds*/
+
+header{
+    background-color: #000000;
+    position: fixed;
+    display: flex;
+    grid-template-columns: 100%
+}
+
+main{ 
+    background-color: #DDEED7;
+    display: flex; 
+    grid-template-columns: 75%, 25%;
+}
+
+footer{
+   background-color: #000000;
+   font: "Helvetica";
+    font-style: oblique;
+    font-size: 10pt;
+    color: white;
+    padding: 25px;
+}
+
+#splash {
+    background-image;
+    background-size:cover;
+    height: 400px;
+    grid-column-start:1;
+    grid-column-end:3; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img.floatleft {
+    float: left; 
+} 
+
+#container{
+    margin-left:auto;
+    margin-right:auto;
+    width: 1000px;
+    margin: auto;
+}
